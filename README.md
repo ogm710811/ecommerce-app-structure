@@ -11,4 +11,119 @@ This structure ensures a modular and organized codebase, making it easier to mai
 7. Notifications: Order Updates, Promotions, Wishlist Alerts
 8. Customer Support: Contact Form, FAQ, Live Chat
 
+## App Structure
+```
+src/
+├── app/
+│   ├── core/
+│   │   ├── interceptors/
+│   │   ├── services/
+│   │   │   ├── auth.service.ts
+│   │   │   ├── user.service.ts
+│   │   │   ├── product.service.ts
+│   │   │   ├── cart.service.ts
+│   │   │   ├── order.service.ts
+│   │   │   ├── notification.service.ts
+│   │   │   ├── admin.service.ts
+│   │   │   ├── support.service.ts
+│   │   ├── guards/
+│   │   ├── models/
+│   │   ├── core.module.ts
+│   │   └── ...
+│   ├── shared/
+│   │   ├── components/
+│   │   ├── directives/
+│   │   ├── pipes/
+│   │   └── ...
+│   ├── features/
+│   │   ├── auth/
+│   │   │   ├── components/
+│   │   │   │   ├── login/
+│   │   │   │   ├── signup/
+│   │   │   │   ├── logout/
+│   │   │   │   ├── reset-password/
+│   │   │   ├── services/
+│   │   │   │   ├── auth.service.ts
+│   │   │   ├── auth-routing.module.ts
+│   │   │   ├── auth.module.ts
+│   │   ├── catalog/
+│   │   │   ├── components/
+│   │   │   │   ├── product-listing/
+│   │   │   │   ├── product-details/
+│   │   │   │   ├── categories/
+│   │   │   │   ├── search/
+│   │   │   ├── services/
+│   │   │   │   ├── product.service.ts
+│   │   │   ├── catalog-routing.module.ts
+│   │   │   ├── catalog.module.ts
+│   │   ├── cart/
+│   │   │   ├── components/
+│   │   │   │   ├── view-cart/
+│   │   │   │   ├── cart-item/
+│   │   │   ├── services/
+│   │   │   │   ├── cart.service.ts
+│   │   │   ├── cart-routing.module.ts
+│   │   │   ├── cart.module.ts
+│   │   ├── checkout/
+│   │   │   ├── components/
+│   │   │   │   ├── address/
+│   │   │   │   ├── payment/
+│   │   │   │   ├── order-summary/
+│   │   │   │   ├── order-confirmation/
+│   │   │   ├── services/
+│   │   │   │   ├── order.service.ts
+│   │   │   ├── checkout-routing.module.ts
+│   │   │   ├── checkout.module.ts
+│   │   ├── profile/
+│   │   │   ├── components/
+│   │   │   │   ├── view-profile/
+│   │   │   │   ├── edit-profile/
+│   │   │   │   ├── order-history/
+│   │   │   │   ├── wishlist/
+│   │   │   ├── services/
+│   │   │   │   ├── user.service.ts
+│   │   │   │   ├── order.service.ts
+│   │   │   ├── profile-routing.module.ts
+│   │   │   ├── profile.module.ts
+│   │   ├── admin/
+│   │   │   ├── components/
+│   │   │   │   ├── manage-products/
+│   │   │   │   ├── manage-orders/
+│   │   │   │   ├── manage-users/
+│   │   │   │   ├── manage-categories/
+│   │   │   ├── services/
+│   │   │   │   ├── admin.service.ts
+│   │   │   ├── admin-routing.module.ts
+│   │   │   ├── admin.module.ts
+│   │   ├── notifications/
+│   │   │   ├── components/
+│   │   │   │   ├── order-updates/
+│   │   │   │   ├── promotions/
+│   │   │   │   ├── wishlist-alerts/
+│   │   │   ├── services/
+│   │   │   │   ├── notification.service.ts
+│   │   │   ├── notifications-routing.module.ts
+│   │   │   ├── notifications.module.ts
+│   │   ├── support/
+│   │   │   ├── components/
+│   │   │   │   ├── contact-form/
+│   │   │   │   ├── faq/
+│   │   │   │   ├── live-chat/
+│   │   │   ├── services/
+│   │   │   │   ├── support.service.ts
+│   │   │   ├── support-routing.module.ts
+│   │   │   ├── support.module.ts
+│   ├── main.ts
+│   ├── app.component.html
+│   ├── app.component.scss
+│   ├── app.component.ts
+│   └── ...
+├── assets/
+├── environments/
+├── styles/
+├── index.html
+├── polyfills.ts
+├── test.ts
+└── ...
 
+```
