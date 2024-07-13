@@ -31,13 +31,13 @@ This structure ensures a modular and organized codebase, making it easier to mai
 3. Cart Feature:  
    **CartService:** Manages shopping cart operations (add, update, remove items).  
    ```app/features/cart/services/cart.service.ts```
-4. Checkout Feature:
-   **OrderService:** Manages order processing (address information, payment processing, order summary, order confirmation).
+4. Checkout Feature:  
+   **OrderService:** Manages order processing (address information, payment processing, order summary, order confirmation).  
    ```app/features/checkout/services/order.service.ts```
-5. Profile Feature:
+5. Profile Feature:  
     **UserService:** Manages user profile (view/edit profile, order history, wishlist).
     ```app/features/profile/services/user.service.ts```  
-    **OrderService:** Retrieves and manages the user's order history.
+    **OrderService:** Retrieves and manages the user's order history.  
     ```app/features/profile/services/order.service.ts```
 6. Admin Feature:
     **AdminService:** Manages admin operations (manage products, orders, users, categories).
