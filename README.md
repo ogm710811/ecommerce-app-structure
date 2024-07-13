@@ -35,17 +35,17 @@ This structure ensures a modular and organized codebase, making it easier to mai
    **OrderService:** Manages order processing (address information, payment processing, order summary, order confirmation).  
    ```app/features/checkout/services/order.service.ts```
 5. Profile Feature:  
-    **UserService:** Manages user profile (view/edit profile, order history, wishlist).
+    **UserService:** Manages user profile (view/edit profile, order history, wishlist).  
     ```app/features/profile/services/user.service.ts```  
     **OrderService:** Retrieves and manages the user's order history.  
     ```app/features/profile/services/order.service.ts```
-6. Admin Feature:
+6. Admin Feature:  
     **AdminService:** Manages admin operations (manage products, orders, users, categories).
     ```app/features/admin/services/admin.service.ts```
-7. Notifications Feature:
+7. Notifications Feature:  
     **NotificationService:** Manages notifications (order updates, promotions, wishlist alerts).
     ```app/features/notifications/services/notification.service.ts```
-8. Support Feature:
+8. Support Feature:  
     **SupportService:** Manages customer support interactions (contact form, FAQ, live chat).
     ````app/features/support/services/support.service.ts```
 
