@@ -22,8 +22,8 @@ This structure ensures a modular and organized codebase, making it easier to mai
 8. SupportService: Manages customer support interactions (contact, FAQ, live chat).
 
 ## Feature-Specific Services
-1. Auth Feature:
-   **AuthService:** Handles login, signup, logout, and password reset operations.
+1. Auth Feature:  
+   **AuthService:** Handles login, signup, logout, and password reset operations.  
    ```app/features/auth/services/auth.service.ts```
 3. Catalog Feature: ProductService: Manages product listings, details, categories, and search functionality.
    app/features/catalog/services/product.service.ts
