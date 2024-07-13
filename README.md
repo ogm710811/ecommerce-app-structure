@@ -25,26 +25,29 @@ This structure ensures a modular and organized codebase, making it easier to mai
 1. Auth Feature:  
    **AuthService:** Handles login, signup, logout, and password reset operations.  
    ```app/features/auth/services/auth.service.ts```
-3. Catalog Feature: ProductService: Manages product listings, details, categories, and search functionality.
-   app/features/catalog/services/product.service.ts
-5. Cart Feature: CartService: Manages shopping cart operations (add, update, remove items).
-   app/features/cart/services/cart.service.ts
-7. Checkout Feature: OrderService: Manages order processing (address information, payment processing, order summary, order confirmation).
-   app/features/checkout/services/order.service.ts
-9. Profile Feature: UserService: Manages user profile (view/edit profile, order history, wishlist).
-    app/features/profile/services/user.service.ts
-    2. **OrderService:**
-       - Retrieves and manages the user's order history.
-    
-    ```plaintext
-    app/features/profile/services/order.service.ts
-
-10. Admin Feature: AdminService: Manages admin operations (manage products, orders, users, categories).
-    app/features/admin/services/admin.service.ts
-11. Notifications Feature: NotificationService: Manages notifications (order updates, promotions, wishlist alerts).
-    app/features/notifications/services/notification.service.ts
-12. Support Feature: SupportService: Manages customer support interactions (contact form, FAQ, live chat).
-    app/features/support/services/support.service.ts
+2. Catalog Feature:
+   **ProductService:** Manages product listings, details, categories, and search functionality.
+   ```app/features/catalog/services/product.service.ts```
+3. Cart Feature:
+   **CartService:** Manages shopping cart operations (add, update, remove items).
+   ```app/features/cart/services/cart.service.ts```
+4. Checkout Feature:
+   **OrderService:** Manages order processing (address information, payment processing, order summary, order confirmation).
+   ```app/features/checkout/services/order.service.ts```
+5. Profile Feature:
+    **UserService:** Manages user profile (view/edit profile, order history, wishlist).
+    ```app/features/profile/services/user.service.ts```  
+    **OrderService:** Retrieves and manages the user's order history.
+    ```app/features/profile/services/order.service.ts```
+6. Admin Feature:
+    **AdminService:** Manages admin operations (manage products, orders, users, categories).
+    ```app/features/admin/services/admin.service.ts```
+7. Notifications Feature:
+    **NotificationService:** Manages notifications (order updates, promotions, wishlist alerts).
+    ```app/features/notifications/services/notification.service.ts```
+8. Support Feature:
+    **SupportService:** Manages customer support interactions (contact form, FAQ, live chat).
+    ````app/features/support/services/support.service.ts```
 
 ## App Structure
 ```
