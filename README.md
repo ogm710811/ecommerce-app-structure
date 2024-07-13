@@ -25,11 +25,11 @@ This structure ensures a modular and organized codebase, making it easier to mai
 1. Auth Feature:  
    **AuthService:** Handles login, signup, logout, and password reset operations.  
    ```app/features/auth/services/auth.service.ts```
-2. Catalog Feature:
+2. Catalog Feature:  
    **ProductService:** Manages product listings, details, categories, and search functionality.
    ```app/features/catalog/services/product.service.ts```
-3. Cart Feature:
-   **CartService:** Manages shopping cart operations (add, update, remove items).
+3. Cart Feature:  
+   **CartService:** Manages shopping cart operations (add, update, remove items).  
    ```app/features/cart/services/cart.service.ts```
 4. Checkout Feature:
    **OrderService:** Manages order processing (address information, payment processing, order summary, order confirmation).
