@@ -1,4 +1,4 @@
-# ecommerce-app-structure
+# ecommerce-app-structure Angular Solution version >18
 This structure ensures a modular and organized codebase, making it easier to maintain and scale the application as it grows. Each feature is self-contained, with its components, services, and routing, promoting separation of concerns and reusability.
 
 ## Features for an E-commerce App
